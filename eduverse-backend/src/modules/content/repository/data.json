@@ -1,0 +1,80 @@
+{
+  "topic_1": {
+    "content": {
+       "default": "This is the default explanation of adaptive learning...",
+       "simplified": "Adaptive learning changes based on what you do...",
+       "chunked": ["Part 1: Adaptive learning", "Part 2: It tracks you", "Part 3: It adapts"],
+       "audio": "https://dummy.eduverse.com/audio/topic_1_default.mp3",
+       "visual": "https://dummy.eduverse.com/visual/topic_1_diagram.png",
+       "concepts": {
+         "adaptive_tracking": {
+           "simplified": "Tracking allows the system to monitor your progress natively.",
+           "chunked": ["System tracking", "Progress monitoring", "Data analysis"],
+           "visual": "https://dummy.eduverse.com/visual/tracking_diagram.png",
+           "audio": "https://dummy.eduverse.com/audio/tracking.mp3"
+         }
+       }
+    },
+    "quiz": [
+      {
+        "question": "What is the primary function of adaptive learning?",
+        "options": ["To track you", "To adapt based on what you do", "To test you", "To ignore you"],
+        "answer": "To adapt based on what you do",
+        "difficulty": "easy",
+        "concept": "adaptive_tracking"
+      },
+      {
+        "question": "Which modality is NOT natively supported?",
+        "options": ["Text", "Audio", "Visual", "Telepathy"],
+        "answer": "Telepathy",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "topic_2": {
+    "content": {
+       "default": "Neuroplasticity allows the neurons in the brain to compensate for injury and disease.",
+       "simplified": "Your brain can change and adapt to learn new things.",
+       "chunked": ["Neurons in the brain", "Compensate for injury", "Adjust responses in new situations"],
+       "audio": "https://dummy.eduverse.com/audio/topic_2_default.mp3",
+       "visual": "https://dummy.eduverse.com/visual/topic_2_diagram.png"
+    },
+    "quiz": [
+      {
+        "question": "What does neuroplasticity allow neurons to do?",
+        "options": ["Die instantly", "Remain static", "Compensate for injury", "Duplicate exactly"],
+        "answer": "Compensate for injury",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Neuroplasticity strictly applies to which of the following?",
+        "options": ["Computers", "Brain", "Muscles", "Bones"],
+        "answer": "Brain",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "topic_3": {
+    "content": {
+       "default": "Machine Learning is a subset of AI mapping inputs to outputs.",
+       "simplified": "Machine Learning teaches computers to learn from examples.",
+       "chunked": ["Subset of AI", "Maps inputs to outputs", "Learns from data"],
+       "audio": "https://dummy.eduverse.com/audio/topic_3_ml.mp3",
+       "visual": "https://dummy.eduverse.com/visual/topic_3_flowchart.png"
+    },
+    "quiz": [
+      {
+        "question": "Machine learning revolves around learning from what?",
+        "options": ["Nothing", "Vacuum", "Examples", "Water"],
+        "answer": "Examples",
+        "difficulty": "easy"
+      },
+      {
+        "question": "In general Machine Learning, what happens between inputs and outputs?",
+        "options": ["Deletion", "Mapping", "Randomization", "Ignoring"],
+        "answer": "Mapping",
+        "difficulty": "medium"
+      }
+    ]
+  }
+}

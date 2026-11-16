@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EduVerse Real-Time Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f6f8; margin: 0; padding: 20px; color: #333; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .stat-box { display: flex; justify-content: space-between; flex-wrap: wrap; }
+        .stat { background: #e3f2fd; padding: 15px; border-radius: 8px; text-align: center; flex: 1; margin: 5px; border: 1px solid #bbdefb; }
+        .stat h3 { margin: 0; font-size: 28px; color: #1565c0; }
+        .stat p { margin: 5px 0 0 0; font-size: 14px; color: #0d47a1; font-weight: bold; }
+        .timeline-item { padding: 12px; border-left: 4px solid #1976d2; margin-bottom: 10px; background: #fafafa; border-radius: 0 4px 4px 0; }
+        .timeline-item span { font-size: 12px; color: #666; }
+        .input-group { margin-bottom: 25px; }
+        input { padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; width: 250px; }
+        button { padding: 10px 20px; font-size: 16px; background: #1976d2; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #1565c0; }
+        h1 { color: #1e88e5; }
+        h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 0; }
+    </style>
+</head>
+<body>
+    <h1>EduVerse Interactive Analytics Dashboard</h1>
+    
+    <div class="input-group">
+        <input type="number" id="sessionInput" placeholder="Live Monitor Session ID (e.g., 1)" />
+        <button id="loadSessionBtn">Track Learner Formations</button>
+    </div>
+
+    <!-- Overview Panel -->
+    <div class="card stat-box" id="overviewPanel">
+        <div class="stat"><h3 id="statTotal">0</h3><p>Total Sessions</p></div>
+        <div class="stat"><h3 id="statActive">0</h3><p>Active Instances</p></div>
+        <div class="stat"><h3 id="statEngage">0.0</h3><p>Avg Engagement</p></div>
+        <div class="stat"><h3 id="statQuiz">0.0</h3><p>Avg Quiz Score</p></div>
+        <div class="stat"><h3 id="statSuccess">0%</h3><p>Adaptation Success Rate</p></div>
+    </div>
+
+    <div class="grid" style="margin-top: 20px;">
+        <!-- Engagement Graph -->
+        <div class="card">
+            <h2>Live Session Telemetry</h2>
+            <div><strong>Active ID:</strong> <span id="currentSessionId" style="color:#d32f2f;">Unassigned</span></div>
+            <div><strong>Instant Engagement:</strong> <span id="currentEngage">0.0</span></div>
+            <div><strong>Latest Quiz Score:</strong> <span id="currentQuiz">0.0</span></div>
+            <div><strong>Total Agent Formations:</strong> <span id="currentAdapts">0</span></div>
+            <canvas id="engagementChart" style="margin-top: 20px; max-height: 300px;"></canvas>
+        </div>
+
+        <!-- Adaptation Timeline -->
+        <div class="card">
+            <h2>Event Timeline (Orchestrator log)</h2>
+            <div id="timelineContainer" style="max-height: 400px; overflow-y: auto;">
+                <p>Register a specific Session ID to view timeline matrices.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="components/dashboard.js"></script>
+    <script src="components/charts.js"></script>
+    <script src="components/timeline.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

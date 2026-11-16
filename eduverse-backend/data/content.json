@@ -1,0 +1,420 @@
+{
+    "photosynthesis": {
+        "topic": "Photosynthesis",
+        "content": {
+            "default": "Photosynthesis is the process by which green plants, algae, and some bacteria use light energy to make food from carbon dioxide and water. It happens mainly in chloroplasts, where chlorophyll absorbs light most strongly in the red and blue parts of the spectrum. During the light-dependent reactions in the thylakoid membranes, water molecules are split, oxygen is released, and energy is captured in ATP and NADPH. In the Calvin cycle in the stroma, carbon dioxide is combined with hydrogen and the stored energy to build glucose. The overall result is that light energy is converted into chemical energy stored in sugar. Plants use glucose for respiration, store it as starch, and turn some of it into cellulose for structure and growth. The rate of photosynthesis depends on limiting factors such as light intensity, carbon dioxide concentration, temperature, and water supply.",
+            "simplified": "Photosynthesis is how plants, algae, and some bacteria make food using light. It mainly happens in chloroplasts, where chlorophyll absorbs red and blue light. First, light energy is used to split water. This releases oxygen and stores energy in ATP and NADPH. Next, in the Calvin cycle, carbon dioxide is combined with that stored energy to make glucose. In this way, light energy is changed into chemical energy stored in sugar. Plants use glucose for respiration, store it as starch, and use it to build cellulose for growth. The process works best when the plant has enough light, carbon dioxide, water, and a suitable temperature.",
+            "chunked": [
+                "Step 1 - Definition: Photosynthesis is the process that lets plants, algae, and some bacteria use light energy to make food from carbon dioxide and water.",
+                "Step 2 - Location and Light Capture: It mainly happens in chloroplasts. Chlorophyll inside chloroplasts absorbs light, especially red and blue wavelengths.",
+                "Step 3 - Light-Dependent Reactions: In the thylakoid membranes, water is split, oxygen is released, and energy is stored in ATP and NADPH.",
+                "Step 4 - Calvin Cycle: In the stroma, carbon dioxide is combined with hydrogen and stored energy to build glucose.",
+                "Step 5 - Results and Limits: Glucose is used for respiration, stored as starch, or made into cellulose. The rate depends on light intensity, carbon dioxide, temperature, and water supply."
+            ],
+            "summary": "Photosynthesis uses light energy to turn carbon dioxide and water into glucose and oxygen. The light-dependent stage captures energy, and the Calvin cycle uses that energy to build sugar. Its rate depends on light, carbon dioxide, temperature, and water.",
+            "visual": {
+                "text": "Photosynthesis can be visualized as a two-stage pathway. First, chlorophyll in the chloroplast captures sunlight. The light-dependent reactions then split water, release oxygen, and store energy in ATP and NADPH. Next, the Calvin cycle uses carbon dioxide and that stored energy to build glucose. The final result is that light energy becomes chemical energy stored in sugar for respiration, storage, and growth.",
+                "diagram": "/demo/photosynthesis-infographic.jpg"
+            },
+            "concepts": {
+                "chloroplast_and_chlorophyll": {
+                    "simplified": "Chloroplasts are the parts of plant cells where photosynthesis happens. Chlorophyll inside them absorbs the light energy needed for the process.",
+                    "chunked": [
+                        "Chloroplasts are the organelles where photosynthesis takes place.",
+                        "Chlorophyll is the pigment that captures light energy, especially red and blue light."
+                    ]
+                },
+                "light_dependent_reactions": {
+                    "simplified": "In the first stage, water is split and oxygen is released. The plant also stores energy as ATP and NADPH.",
+                    "chunked": [
+                        "This stage happens in the thylakoid membranes.",
+                        "Water is split, oxygen is produced, and energy is stored in ATP and NADPH."
+                    ]
+                },
+                "calvin_cycle": {
+                    "simplified": "In the Calvin cycle, the plant uses carbon dioxide and stored energy to make glucose.",
+                    "chunked": [
+                        "This stage happens in the stroma of the chloroplast.",
+                        "Carbon dioxide is combined with stored energy to build glucose."
+                    ]
+                },
+                "limiting_factors": {
+                    "simplified": "Photosynthesis slows down if light, carbon dioxide, water, or temperature is not at the right level.",
+                    "chunked": [
+                        "Light intensity, carbon dioxide concentration, temperature, and water supply can all affect the rate.",
+                        "If one factor is too low, it becomes the limiting factor."
+                    ]
+                }
+            }
+        },
+        "quiz": [
+            {
+                "question": "What is the main purpose of photosynthesis?",
+                "options": [
+                    "To absorb oxygen from the air",
+                    "To use light energy to make glucose from carbon dioxide and water",
+                    "To break glucose into carbon dioxide",
+                    "To move water around the plant"
+                ],
+                "correct": "To use light energy to make glucose from carbon dioxide and water",
+                "concept": "overall_process",
+                "topic": "Photosynthesis",
+                "difficulty": "easy"
+            },
+            {
+                "question": "What does chlorophyll do during photosynthesis?",
+                "options": [
+                    "Stores glucose in roots",
+                    "Absorbs light energy",
+                    "Releases carbon dioxide",
+                    "Breaks down cellulose"
+                ],
+                "correct": "Absorbs light energy",
+                "concept": "chloroplast_and_chlorophyll",
+                "topic": "Photosynthesis",
+                "difficulty": "easy"
+            },
+            {
+                "question": "Which products are made in the light-dependent reactions?",
+                "options": [
+                    "Glucose and carbon dioxide",
+                    "Oxygen, ATP, and NADPH",
+                    "Cellulose and starch",
+                    "Only water"
+                ],
+                "correct": "Oxygen, ATP, and NADPH",
+                "concept": "light_dependent_reactions",
+                "topic": "Photosynthesis",
+                "difficulty": "medium"
+            },
+            {
+                "question": "What happens in the Calvin cycle?",
+                "options": [
+                    "Water is split to release oxygen",
+                    "Chlorophyll absorbs red and blue light",
+                    "Carbon dioxide is used to build glucose",
+                    "Glucose is broken down for respiration"
+                ],
+                "correct": "Carbon dioxide is used to build glucose",
+                "concept": "calvin_cycle",
+                "topic": "Photosynthesis",
+                "difficulty": "medium"
+            },
+            {
+                "question": "Which factor can limit the rate of photosynthesis?",
+                "options": [
+                    "Sound intensity",
+                    "Soil color",
+                    "Carbon dioxide concentration",
+                    "Leaf shape only"
+                ],
+                "correct": "Carbon dioxide concentration",
+                "concept": "limiting_factors",
+                "topic": "Photosynthesis",
+                "difficulty": "easy"
+            }
+        ]
+    },
+    "newtons_laws": {
+        "topic": "Newton's Laws",
+        "content": {
+            "default": "Newton's Laws of Motion explain how forces affect the movement of objects. The first law says that an object remains at rest or continues moving at constant velocity unless acted on by a net external force; this tendency to resist change is called inertia. The second law shows that acceleration depends on both net force and mass, written as F = ma, so a larger force causes more acceleration while a larger mass resists change more strongly. The third law says that when one object exerts a force on another, the second object exerts an equal and opposite force on the first. Together these laws explain everyday motion, including why seat belts protect passengers, why a loaded cart is harder to push than an empty one, and how rockets move forward by pushing exhaust backward. They are used to predict motion, calculate forces, and design safer systems in science and engineering.",
+            "simplified": "Newton's Laws explain how forces change motion. The first law says an object stays still or keeps moving at the same speed and direction unless a net force acts on it. This idea is called inertia. The second law says force, mass, and acceleration are linked by F = ma. More force causes more acceleration, but more mass makes acceleration harder. The third law says forces come in pairs: if one object pushes another, the second pushes back with an equal and opposite force. These laws explain everyday events like seat belts, pushing carts, and rocket motion. They help people predict motion and build safer machines.",
+            "chunked": [
+                "Section 1 - Definition: Newton's Laws describe how forces affect the motion of objects.",
+                "Section 2 - First Law: An object stays at rest or moves at constant velocity unless a net external force acts on it. This resistance to change is called inertia.",
+                "Section 3 - Second Law: Acceleration depends on net force and mass, expressed as F = ma. Greater force increases acceleration, while greater mass reduces acceleration for the same force.",
+                "Section 4 - Third Law: When one object exerts a force on another, the second object exerts an equal and opposite force back.",
+                "Section 5 - Results and Uses: These laws explain seat belts, pushing carts, walking, and rocket motion, and they help engineers predict motion and design safer systems."
+            ],
+            "summary": "Newton's Laws explain how forces affect motion. The first law describes inertia, the second links force, mass, and acceleration with F = ma, and the third shows that forces come in equal and opposite pairs. Together they explain and predict everyday motion.",
+            "visual": {
+                "text": "Newton's First Law explains inertia, the Second Law explains how force and mass affect acceleration, and the Third Law explains action-reaction pairs. These three laws work together to describe how motion starts, changes, and continues in real systems.",
+                "diagram": "First Law: no net force -> no change in motion | Second Law: net force + mass -> acceleration (F = ma) | Third Law: action force <-> equal and opposite reaction force"
+            },
+            "concepts": {
+                "inertia": {
+                    "simplified": "Inertia is the tendency of an object to resist changes in its motion.",
+                    "chunked": [
+                        "Inertia explains why objects stay still or keep moving unless a net force acts.",
+                        "It is the key idea behind Newton's First Law."
+                    ]
+                },
+                "net_force_and_acceleration": {
+                    "simplified": "Newton's Second Law says acceleration depends on the net force and the object's mass.",
+                    "chunked": [
+                        "The relationship is written as F = ma.",
+                        "More force increases acceleration, while more mass reduces it for the same force."
+                    ]
+                },
+                "action_reaction_pairs": {
+                    "simplified": "For every force, there is an equal and opposite force acting on another object.",
+                    "chunked": [
+                        "Forces come in pairs between interacting objects.",
+                        "The two forces are equal in size and opposite in direction."
+                    ]
+                },
+                "balanced_and_unbalanced_forces": {
+                    "simplified": "Balanced forces do not change motion, but unbalanced forces cause acceleration.",
+                    "chunked": [
+                        "Balanced forces mean no change in velocity.",
+                        "Unbalanced forces change speed, direction, or both."
+                    ]
+                }
+            }
+        },
+        "quiz": [
+            {
+                "question": "What does Newton's First Law say about an object at rest or in motion?",
+                "options": [
+                    "It always speeds up",
+                    "It stays at rest or keeps constant velocity unless acted on by a net force",
+                    "It must stop after a short time",
+                    "It changes mass when pushed"
+                ],
+                "correct": "It stays at rest or keeps constant velocity unless acted on by a net force",
+                "concept": "inertia",
+                "topic": "Newton's Laws",
+                "difficulty": "easy"
+            },
+            {
+                "question": "What equation represents Newton's Second Law?",
+                "options": [
+                    "V = IR",
+                    "E = mc^2",
+                    "F = ma",
+                    "p = mv"
+                ],
+                "correct": "F = ma",
+                "concept": "net_force_and_acceleration",
+                "topic": "Newton's Laws",
+                "difficulty": "easy"
+            },
+            {
+                "question": "If the same force is applied to two objects, which one accelerates less?",
+                "options": [
+                    "The object with greater mass",
+                    "The object with smaller mass",
+                    "Both accelerate the same in all cases",
+                    "Neither object accelerates"
+                ],
+                "correct": "The object with greater mass",
+                "concept": "net_force_and_acceleration",
+                "topic": "Newton's Laws",
+                "difficulty": "medium"
+            },
+            {
+                "question": "What does Newton's Third Law describe?",
+                "options": [
+                    "Energy cannot be created",
+                    "Objects always move in circles",
+                    "For every action there is an equal and opposite reaction",
+                    "Mass and weight are the same thing"
+                ],
+                "correct": "For every action there is an equal and opposite reaction",
+                "concept": "action_reaction_pairs",
+                "topic": "Newton's Laws",
+                "difficulty": "easy"
+            },
+            {
+                "question": "What is the difference between balanced and unbalanced forces?",
+                "options": [
+                    "Balanced forces change motion, unbalanced forces do not",
+                    "Balanced forces do not change motion, unbalanced forces do",
+                    "Balanced forces only act in space",
+                    "There is no difference"
+                ],
+                "correct": "Balanced forces do not change motion, unbalanced forces do",
+                "concept": "balanced_and_unbalanced_forces",
+                "topic": "Newton's Laws",
+                "difficulty": "medium"
+            }
+        ]
+    },
+    "basic_electricity": {
+        "topic": "Basic Electricity",
+        "content": {
+            "default": "Basic electricity explains how electric charge moves and how electrical energy is transferred in a circuit. Current is the flow of electric charge, voltage is the potential difference that pushes charge through a circuit, and resistance is the opposition to that flow. These quantities are related by Ohm's Law, V = IR. For current to continue, the circuit must provide a closed path so charge can move from the power source, through components, and back again. In conductors such as metals, electrons move easily, while insulators resist that motion. In a series circuit, all components share one path, so the same current passes through every part and a single break stops the whole circuit. In a parallel circuit, components are placed on separate branches, so each branch receives the supply voltage and one broken branch may not stop the others. Electrical energy can be changed into light, heat, or motion, which is why circuit design affects device behavior, safety, and power use.",
+            "simplified": "Basic electricity is about how charge moves and how circuits work. Current is the flow of charge, voltage is the push that moves it, and resistance is what slows it down. Ohm's Law links them with V = IR. A circuit must be closed for current to keep flowing from the power source, through components, and back. Metals are good conductors because electrons move through them easily, while insulators do not allow charge to move well. In a series circuit, all parts are on one path, so the same current flows through each part and one break stops everything. In a parallel circuit, parts are on separate branches, so one branch can still work if another fails. Electrical energy can become light, heat, or motion.",
+            "chunked": [
+                "Section 1 - Definition: Electricity involves the movement of electric charge and the transfer of energy in circuits.",
+                "Section 2 - Core Quantities: Current is the flow of charge, voltage is the potential difference that pushes charge, and resistance opposes the flow. Ohm's Law connects them as V = IR.",
+                "Section 3 - Closed Circuit: Current needs a complete path from the power source, through the components, and back again.",
+                "Section 4 - Materials: Conductors such as metals allow electrons to move easily, while insulators resist that movement.",
+                "Section 5 - Circuit Types and Results: Series circuits have one path, so one break stops everything. Parallel circuits have separate branches, so one branch may fail while others still work. Electrical energy can be transferred into light, heat, or motion."
+            ],
+            "summary": "Basic electricity focuses on current, voltage, resistance, and circuit structure. Ohm's Law links the main quantities as V = IR, and current needs a closed path to flow. Series and parallel circuits behave differently, which affects how devices work and fail.",
+            "visual": {
+                "text": "Electricity in a circuit depends on current, voltage, and resistance. Current flows only when there is a closed path. Series circuits use one path, while parallel circuits use multiple branches, which changes how failures affect the system.",
+                "diagram": "Power source -> closed circuit -> current flows | Ohm's Law: V = I x R | Series: one path -> one break stops all | Parallel: many branches -> one break does not stop all"
+            },
+            "concepts": {
+                "current_voltage_resistance": {
+                    "simplified": "Current is the flow of charge, voltage is the push that moves it, and resistance opposes that movement.",
+                    "chunked": [
+                        "Current measures the flow of electric charge.",
+                        "Voltage pushes charge, and resistance reduces the flow."
+                    ]
+                },
+                "ohms_law": {
+                    "simplified": "Ohm's Law shows the relationship between voltage, current, and resistance: V = IR.",
+                    "chunked": [
+                        "Ohm's Law connects the three main electrical quantities.",
+                        "If resistance changes, current changes for a given voltage."
+                    ]
+                },
+                "closed_circuit_and_materials": {
+                    "simplified": "A circuit must be closed for current to flow. Conductors let electrons move easily, while insulators resist movement.",
+                    "chunked": [
+                        "Current needs a complete path from the source and back.",
+                        "Conductors help charge move, while insulators resist it."
+                    ]
+                },
+                "series_and_parallel_circuits": {
+                    "simplified": "A series circuit has one path, but a parallel circuit has separate branches. That is why they behave differently when a part breaks.",
+                    "chunked": [
+                        "Series circuits have one path and the same current in each component.",
+                        "Parallel circuits have separate branches, and one broken branch may not stop the others."
+                    ]
+                }
+            }
+        },
+        "quiz": [
+            {
+                "question": "What is electric current?",
+                "options": [
+                    "The color of a wire",
+                    "The flow of electric charge",
+                    "The size of a battery",
+                    "The resistance of a switch"
+                ],
+                "correct": "The flow of electric charge",
+                "concept": "current_voltage_resistance",
+                "topic": "Basic Electricity",
+                "difficulty": "easy"
+            },
+            {
+                "question": "What does voltage do in a circuit?",
+                "options": [
+                    "It stores light inside a bulb",
+                    "It pushes charge through the circuit",
+                    "It stops current from moving",
+                    "It turns metals into insulators"
+                ],
+                "correct": "It pushes charge through the circuit",
+                "concept": "current_voltage_resistance",
+                "topic": "Basic Electricity",
+                "difficulty": "easy"
+            },
+            {
+                "question": "Which equation represents Ohm's Law?",
+                "options": [
+                    "F = ma",
+                    "V = IR",
+                    "P = mv",
+                    "a^2 + b^2 = c^2"
+                ],
+                "correct": "V = IR",
+                "concept": "ohms_law",
+                "topic": "Basic Electricity",
+                "difficulty": "easy"
+            },
+            {
+                "question": "Why must a circuit be closed?",
+                "options": [
+                    "So the battery looks complete",
+                    "So current has a complete path to flow",
+                    "So resistance becomes zero",
+                    "So conductors become insulators"
+                ],
+                "correct": "So current has a complete path to flow",
+                "concept": "closed_circuit_and_materials",
+                "topic": "Basic Electricity",
+                "difficulty": "medium"
+            },
+            {
+                "question": "How is a parallel circuit different from a series circuit?",
+                "options": [
+                    "A parallel circuit has separate branches, while a series circuit has one path",
+                    "A parallel circuit has no voltage",
+                    "A series circuit always uses more current",
+                    "They are exactly the same"
+                ],
+                "correct": "A parallel circuit has separate branches, while a series circuit has one path",
+                "concept": "series_and_parallel_circuits",
+                "topic": "Basic Electricity",
+                "difficulty": "medium"
+            }
+        ]
+    },
+    "thermodynamics": {
+        "topic": "thermodynamics",
+        "content": {
+            "default": "Thermodynamics is the branch of physics that deals with heat, work, and temperature, and their relation to energy, radiation, and phase transitions. It is governed by four fundamental laws. The Zeroth Law defines temperature and thermal equilibrium. The First Law is a version of the conservation of energy, stating that energy cannot be created or destroyed, only transformed from one form to another, often expressed as the change in internal energy equals heat added minus work done. The Second Law introduces entropy, stating that the total entropy of an isolated system can never decrease over time; systems naturally evolve toward thermodynamic equilibrium. The Third Law states that as temperature approaches absolute zero, the entropy of a perfect crystal approaches zero. These laws explain why heat flows from hot to cold objects and why perpetual motion machines are physically impossible, shaping our understanding of engines, refrigerators, and the universe's heat death.",
+            "simplified": "Thermodynamics is the study of how heat moves and turns into energy. It explains why hot things cool down and how engines use heat to move.",
+            "chunked": [
+                "The Zeroth Law establishes the concept of temperature.",
+                "The First Law focuses on the conservation of energy.",
+                "The Second Law introduces entropy and the direction of heat flow.",
+                "The Third Law discusses the behavior of matter at absolute zero."
+            ],
+            "summary": "The science of energy transfer, heat, and work governed by four primary laws.",
+            "visual": {
+                "text": "A flow chart showing energy conversion from heat to work.",
+                "diagram": "Heat Source -> Engine (Work Output) -> Cold Sink"
+            },
+            "concepts": {
+                "entropy": {
+                    "simplified": "A measure of disorder or randomness in a system.",
+                    "chunked": [
+                        "Entropy always increases in an isolated system.",
+                        "It represents the unavailability of energy to do work."
+                    ]
+                },
+                "internal_energy": {
+                    "simplified": "The total energy stored inside a substance.",
+                    "chunked": [
+                        "Includes kinetic energy of molecules.",
+                        "Includes potential energy of molecular bonds."
+                    ]
+                }
+            }
+        },
+        "quiz": [
+            {
+                "question": "Which law of thermodynamics states that energy cannot be created or destroyed?",
+                "options": [
+                    "Zeroth Law",
+                    "First Law",
+                    "Second Law",
+                    "Third Law"
+                ],
+                "correct": "First Law",
+                "concept": "internal_energy"
+            },
+            {
+                "question": "What does entropy typically do in an isolated system over time?",
+                "options": [
+                    "Decrease",
+                    "Stay constant",
+                    "Increase",
+                    "Become zero"
+                ],
+                "correct": "Increase",
+                "concept": "entropy"
+            },
+            {
+                "question": "At what temperature does the entropy of a perfect crystal become zero according to the Third Law?",
+                "options": [
+                    "0 degrees Celsius",
+                    "Absolute Zero",
+                    "Boiling point",
+                    "Room temperature"
+                ],
+                "correct": "Absolute Zero",
+                "concept": "entropy"
+            }
+        ],
+        "is_ai_generated": true
+    }
+}
